@@ -6,6 +6,8 @@ lab:
 
 # Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps
 
+## Lab 2 - Excel integration
+
 ## Objective
 
 In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
@@ -28,7 +30,7 @@ Now that you have become familiar with finance and operations apps, take some ti
 
 6.  Enter a new record.
 
-7. Enter **100** in the **Vendor group** field, **Insurance Vendor** in the **Description** field, and **Net10** in the **Terms of payment** field.
+7. Enter **100** in the **Vendor group** field, **Insurance vendor** in the **Description** field, and **Net10** in the **Terms of payment** field.
 
 8. Select the **Publish** button in the Microsoft Dynamics Office Add-in app.
 
