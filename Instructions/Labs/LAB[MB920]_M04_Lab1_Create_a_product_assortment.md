@@ -4,11 +4,13 @@ lab:
     module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
 ---
 
-## Lab 1 - Create a product assortment
+# Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce
 
-## Objectives
+## Lab 1: Create a product assortment
 
-You need to create an assortment of related products that are assigned to a specific commerce channel that will be made available at a future date.
+## Objective
+
+You need to create an assortment of related products that are assigned to a specific commerce channel that will be made available at a future date. 
 
 ## Lab Setup
 
@@ -16,57 +18,63 @@ You need to create an assortment of related products that are assigned to a spec
 
 ## Instructions
 
-1. On the Finance and Operations page, in the top left, select the **Expand the navigation pane** hamburger menu.
+1.  On the Finance and Operations home page, on the top left, select the **Expand the navigation pane** hamburger menu.
 
-1. In the navigation pane, select **Retail and Commerce** > **Catalogs and assortments** > **Assortments**.
+2.  In the navigation pane, select **Retail and Commerce** > **Catalogs and assortments** > **Assortments**.
 
-1. On the Assortments page, select **+ New**.
+3.  Wait for the page to load.
 
-1. In the New Record pane, if necessary expand **General**.
+4.  On the **Assortments** page, select **+ New**.
 
-1. Select the **Effective date** box, and then select a date in the future.
+5.  In the **New Record** pane, expand **General**.
 
-1. In the **Assortment name** box, enter a name for the new assortment. For example, **New Spring Season**.
+6.  Select the **Effective date** box, and then select a date in the future.
 
-1. The expiration date can be used to automatically deactivate a published assortment.
+7.  In the **Assortment name** box, enter a name for the new assortment. For example, **New Spring Season**.
 
-1. Expand **Commerce channels**.
+8.  Set the **Expiration date** to **Never**.
 
-1. On the Commerce channels menu, select **+ Add line**.
+    The expiration date can be used to automatically deactivate a published assortment.
 
-1. In Choose organization nodes, select the **Organization hierarchy** menu, and then select **Retail Stores by Type (Fabrikam)**.
+9.  Expand **Commerce channels**.
 
-1. In the AVAILABLE ORGANIZATION NODES list, select Online, and then select the Add ![Right-arrow icon](./media/d365-fo-add-org-node-icon.png) icon to add it to the **SELECTED ORGANIZATION NODES**.  
-  This will add the parent node and all child nodes.
+10. On the **Commerce channels** menu, select **+ Add line**.
 
-1. Add the **Mall** parent node, and then select **OK**.
+11. In **Choose organization nodes**, select the **Organization hierarchy** menu, and then select **Retail Stores by Type (Fabrikam)**.
 
-1. Verify the two nodes have been added to the Commerce channels.
+12. In the **AVAILABLE ORGANIZATION NODES** list, select **Online,** and then select the **Add** ![Picture 15](./media/04-learn-the-fundamentals-of-dynamics-365-commerce-17.png) icon to add it to the **SELECTED ORGANIZATION NODES**.
 
-1. Expand **Products**.
+    This adds to the parent node and all child nodes.
 
-1. On the Products menu, select **+ Add line**.
+13. Add the **Mall** parent node, and then select **OK**.
 
-1. Select the **Category** menu, select **Team Sports (Team Sports),** and then select **OK**.
+14. Verify the two nodes have been added to the Commerce channels.
 
-1. This will add all child items of the parent category.
+15. Expand **Products**.
 
-1. Review the last column named **Line type**. By default, all items will be included.
+16. On the **Products** menu, select **+ Add line**.
 
-1. Select **+ Add line**, select the **Category** menu, expand **Team Sports (Team Sports)**, select **Baseball**, and then select **OK**.
+17. Select the **Category** menu, select **Team Sports (Team Sports)**, and then select **OK**.
 
-1. To exclude an item from an already included larger category, in this case Team Sports, in the Line type column, change the value to **Exclude**.
+    This adds all child items of the parent category.
 
-1. Using the Baseball category row, select the **Products** menu.
+18. Review the last column named **Line type**. By default, all items are included.
 
-1. When products within a category are defined, you can select a specific product to include or exclude. Select **AdultBaseballInfield**.
+19. Select **+ Add line**, select the **Category** menu, expand **Team Sports (Team Sports)**, select **Baseball**, and then select **OK**.
 
-1. To remove an added product, delete contents of the product box, and then press the Tab key on your keyboard or select another area of the page.
+20. To exclude an item from an already included larger category, in this case **Team Sports**, in the **Line type** column, change the value to **Exclude**.
 
-1. On the top menu, select **Save**.
+21. Using the **Baseball** category row, select the **Products** menu.
 
-1. On the top menu, select **Publish**.
+22. When products within a category are defined, you can select a specific product to include or exclude. Select **AdultBaseballInfield**.
 
-1. Review the information in the dialog box, and then select **Yes**.
+23. To remove an added product, delete contents of the product box, and then press the **Tab** key on your keyboard or select another area of the page.
 
-1. The newly created product assortment will become available on the effective date.
+24. On the top menu, select **Save**.
+
+25. On the top menu, select **Publish**.
+
+26. Review the information in the dialog box, and then select **Yes**.
+
+    The newly created product assortment becomes available on the effective date.
+

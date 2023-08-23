@@ -6,11 +6,11 @@ lab:
 
 # Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management
 
-## Lab 1 - Create a new product
+## Lab 1: Create a new product
 
-## Objectives
+## Objective
 
-In Contoso Entertainment System USA (USMF), you need to create a new item for a new configuration of cabinet to be purchased from vendors.
+In Contoso Entertainment System USA (USMF), you plan to purchase a new configuration of a cabinet from a vendor. You need to create an item to represent the new configuration. In this lab, you learn how to create a new item and item configurations.
 
 ## Lab Setup
 
@@ -18,61 +18,98 @@ In Contoso Entertainment System USA (USMF), you need to create a new item for a 
 
 ## Instructions
 
-1. On the Finance and Operations Home page, in the top right, verify you are working with the USMF company.
+In Contoso Entertainment System USA (USMF), you plan to purchase a new configuration of a cabinet from a vendor. You need to create an item to represent the new configuration.
 
-1. If necessary, select the company and from the menu, select **USMF**.
+1.  On the Finance and Operations Home page, in the upper right, verify you're working with the **USMF** company. If necessary, on the company drop-down, select **USMF**.
 
-1. In the top left, select the **Expand the navigation pane** hamburger menu.
+2.  In the upper left, select the **Expand the navigation pane** hamburger menu.
 
-1. In the navigation pane, select **Modules** > **Product information management,** and then under the **Products** category, select **Released products**.
+3.  In the navigation pane, select **Modules**, and then select **Product information management**. Then on the **Products** menu, select **Products**.
 
-1. On the Released product details page, on the top menu, select **+ New**.
+4.  On the **Products** page, in the upper menu, select **+ New**.
 
-1. In the New released product pane, in the **Product type** menu, verify **Item** is selected.
+5.  In the **New product** page, in the **Product type** field, verify that **Item** is selected.
 
-1. In the **Product subtype** menu, verify **Product** is selected.
+6.  In the **Product subtype** field, verify that **Product** is selected.
 
-1. Select the **Tracking dimension group** menu, and then select **None**.
+7.  Under **IDENTIFICATION**, in the **Product number** box, enter **GTL007**.
 
-1. Under **IDENTIFICATION**, in the **Product number** and **Item number** boxes, enter **GTL007**.
+8.  In the **Product name** box, enter **Cabinet 2**.
 
-1. In the **Product name** box, enter **Cabinet 2**.
+    ![Screenshot depicts the standard view of the new product creation page.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
-1. Under **REFERENCE GROUPS**, select the **Item model group** menu, and then select **FIFO First In-First Out**.
+9.  Select the **OK** button.
 
-1. Select the **Item group** menu and then select **TV&Video**.
+10. Under the **Product** menu in the Action Pane, select **Dimension groups** under the **Set up** group.
 
-1. Select the **Storage dimension group** menu, and then select **SiteWH**.
+    ![Screenshot depicts the set up option under the product menu where the different dimension group details can be added.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
-1. Under **UNITS OF MEASURES**, verify the following values are set:
+11. Select the **Storage dimension group** drop-down and select **SiteWH**.
 
-    | **Setting**| **Value**|
-    | :--- | :--- |
-    | Inventory unit| ea Each|
-    | Purchase unit| ea Each|
-    | Sales unit| ea Each|
-    | BOM unit| ea Each|
+12. Select the **Tracking dimension group** drop-down and select **None**.
 
-1. Under **SALES TAXATION**, select the **Item sales tax group** menu, and then select **ALL**.
+13. Select the **OK** button.
 
-1. Under **PURCHASE TAXATION**, select **Item sales tax group** menu, and then select **ALL**.
+14. Select the **Release products** button in the Action Pane to release the product in a legal entity.
 
-1. Under PRICES, in the Purchase price box, enter 30.00.
+15. A page opens displaying the first step as **Select products to release.**
 
-1. In the Sales price box, enter 30.00.
+    ![Screenshot depicts the standard view of the release products page.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
-1. Your new release product should look like this:
+16. Select the **Next** button at the bottom of the page
 
-    ![Screen image displaying the completed new release product form](./media/lp1-m2-new-release-product.png)
+17. In the **Select companies to release to** page, select the **USMF** legal entity where the product should be released.
 
-1. Select **OK**.
+18. Select the **Next** button at the bottom of the page.
 
-1. To ensure the product is finalized, in the ribbon bar, under **Maintain**, select **Validate**.
+19. In the **Confirm selection** page, set the value of **Show Infolog upon failure** as **Yes** and **Run as batch** as **No.**
 
-    ![Screen image displaying the ribbon bar with Validate highlighted](./media/lp1-m2-validate-ribbon-bar.png)
+20. Select the **Finish** button at the bottom of the page.
 
-1. Verify you are presented with the information banner confirming that all field values required were validated.
+21. In the navigation pane, select Modules, and then select Product information management. Then on the Products menu, select **Released** products.
 
-    ![Screen image of information notification that all required fields have been validated](./media/lp1-m2-confirmation-of-validation.png)
+22. In the **Released** **products** page, locate the new item **GTL007** in the grid. 
 
-1. Close all pages and return to the Home page.
+23. Select the product link and navigate to the **Product details** page.
+
+24. In the **General** FastTab, enter the following:
+
+	- **Item model group**: FIFO
+
+25. In the **Purchase** FastTab, enter the following:
+
+	- **Unit**: ea
+
+	- **Item sales tax group**: ALL
+
+	- **Price**: 30
+
+26. In the **Sell** FastTab, enter the following:
+
+	- **Unit**: ea
+
+	- **Item sales tax group**: ALL
+
+	- **Price**: 35
+
+27. In the **Manage inventory** FastTab, enter the following:
+
+	- **Unit**: ea
+
+28. In the **Engineer** FastTab, enter the following:
+
+	- **BOM Unit**: ea
+
+29. In the **Manage costs** FastTab, enter the following:
+
+	- **Item group**: audio
+
+30. To complete the configuration, select Product in the Action Pane. Select the Validate button under the Maintain group
+
+    ![Screenshot depicts the Maintain group under the Product button in the action pane. The Validate button in the Maintain group is selected.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+
+31. Verify you're presented with the information banner confirming that all field values needed were validated.
+
+    ![Screenshot depicts information banner confirming that all field values needed were validated. ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+
+32. Close all pages and return to the Home page.
